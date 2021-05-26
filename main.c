@@ -34,7 +34,7 @@ void rules(struct blackjack *b, char *rules)
 {
     rules = (char*)calloc(1000, sizeof(char));  //Dynamic allocation of memory for displaying the characters in file
     FILE *fin;
-    fin = fopen("/Users/Matthew/Desktop/Assignment 5/Assignment 5/rules.txt","r");
+    fin = fopen("rules.txt","r");
     if (fin == NULL) {
         printf("Oops, this file doesn't exist!\n");
         exit(0);    //Exit if file could not be found
