@@ -1,6 +1,5 @@
 //  A simple game of blackjack.
 //  main.c
-//  Assignment 5
 //
 //  Created by Matthew Chan on 29/4/2018.
 //  Copyright © 2018 Matthew Chan. All rights reserved.
